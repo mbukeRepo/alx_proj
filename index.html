@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://alx-apply.hbtn.io/level2/school.css" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <title>CargoIn</title>
+</head>
+<body class="works_on_smartphone">
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="rPFu7lnC"></script>
+   <header id="main_nav">
+       <div class="logo_container">
+           <img src="https://alx-apply.hbtn.io/brand_alx/alx-logo.png" alt="" >
+       </div>
+       <ul class="nav_list">
+           <li class="nav_item">Home</li>
+           <li class="nav_item"> <a href="./tweets.html">Tweets</a> </li>
+           <li>
+            <div class="fb-share-button" data-href="http://44.192.27.111" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F44.192.27.111%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+           </li>
+       </ul>
+   </header> 
+   <main>
+       <article>
+           <h1>Welcome to CargoIn !!!!</h1>
+            <p>CargoIn is a company that help local farmers to find market for their harvest , by transporting them to high demand areas in a safe efficient way</p>
+            <h3>And then help then to find clients to their produce</h3>
+            <div class="desc_container">
+                <div class="desc_image">
+                    <img  src="./trucks1.jpeg" alt="" id="smart_thumbnail">
+                </div>
+                <div class="desc_image">
+                    <img src="./trucks2.jpeg" alt="" id="smart_thumbnail1" >
+                </div>
+            </div>           
+       </article>
+       <aside>
+
+        <div class="calculator">
+            <h2 class="heading_calc">Calculate the cost of your cargo</h2>
+            <p class="instruction">Unit cost: 1kg cost 100 RWF</p>
+            <form id="form">
+                <label for="kgs">Weight of your Cargo: </label>
+                <input type="number" id="weight" name="weight" placeholder="1">
+                <button type="submit" id="btn">calculate</button>
+                <p id="result"></p>
+            </form>
+        </div>
+        <div id="disqus_thread"></div>
+       </aside>
+   </main>
+   <footer>
+       <p >Made by ishimwe prince for <a href="https://alx-apply.hbtn.io" target="_blank">ALX</a>.</p>
+   </footer>
+   <script id="dsq-count-scr" src="//http-44-192-27-111.disqus.com/count.js" async></script>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://http-44-192-27-111.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+   <script src="./behavior.js"></script>
+</body>
+</html>
